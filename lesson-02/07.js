@@ -7,8 +7,8 @@ let passportMarried = {
     }
 };
 
-let passportMarried1 = structuredClone(passportMarried);
-passportMarried.married = true;
-
-console.log(passportMarried);
-console.log(passportMarried1);
+let passportMarried2 = structuredClone(passportMarried); 
+passportMarried2.married = true;
+ 
+console.log(passportMarried); 
+console.log(passportMarried2);
