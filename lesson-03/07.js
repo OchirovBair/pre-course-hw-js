@@ -4,8 +4,7 @@ const numbers = [
     [111, 200, 333, 400, 555],
 ];
 
-const newArr = numbers.map(row => {
-    return row.filter(number => number % 2 === 0)}); 
-
-console.log(newArr);
+console.log(numbers.map(row => {
+    return row.filter(number => number % 2 === 0)
+}));
 
